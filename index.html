@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Shop Kids</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo branca.png" alt="logo max shop" style="max-width: 120px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#feminino">Feminino</a>
+                    <a class="nav-link" href="#masculino">Masculino</a>
+                    <a class="nav-link" href="contato.html">Contato</a>
+                    <a class="nav-link" href="sobre.html">Sobre Nós</a>
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#meuModal">Cupom de Desconto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!--banner fixo promoção black-->
+        <section class="banner">
+            <div class="banner-promocao">
+                <img src="img/Banner esquenta Black Friday 1920x100.jpg" alt="promoção black friday max shop kids">
+            </div>
+        </section>
+
+        <!--Modal do cupom de desconto-->
+        <section class="area-modal">
+            <div class="modal fade" id="meuModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h6>Todo o site com até 70% de desconto</h6>
+                            <p class="text-modal">Renove a diversão e o estilo da criançada com os descontos exclusivos
+                                da nossa Black Friday Kids.<br><br> Aplique o cupom <strong>MAXKIDS </strong> no
+                                carrinho e
+                                ganhe 5% de desconto!<br><i>Promoção válida até o fim de novembro</i></p><br>
+                            <div align="center">
+                                <img src="img/Criançamodal.jpg" alt="logo" width="75%">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Carrossel-->
+        <section class="area-carroussel">
+            <div id="meuCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/imagem1.jpg" class="d-block w-100" alt="...">
+                        <button class="btn btn-compras">Nova Coleção Max Shop Kids: feito para brincar todos os
+                            dias!</button>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imagem2.jpg" class="d-block w-100" alt="...">
+                        <button class="btn btn-compras">Vista sorrisos todos os dias! Venha descobrir a magia e as cores
+                            da Max Shop Kids.</button>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imagem3.jpg" class="d-block w-100" alt="...">
+                        <a href="#" class="btn-compras">Frete grátis para compras acima de R$ 200,00</a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imagem4.jpg" class="d-block w-100" alt="...">
+                        <a href="#" class="btn-compras">Fantasias infantis só na Max Shop Kids!</a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imagem5.png" class="d-block w-100" alt="...">
+                        <a href="#" class="btn-compras">Para cada momento feliz, um conjunto diferente da Max Shop
+                            Kids</a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imagem6.png" class="d-block w-100" alt="...">
+                        <a href="#" class="btn-compras">Fale conosco</a>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#meuCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#meuCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+
+        <!--Início do Grid-->
+        <section class="inicio-grid">
+            <h2>Nossa Nova Coleção Infantil Feminino e Masculino</h2>
+        </section>
+
+        <!--Container forma correta Feminino-->
+        <section class="feminino" id="feminino">
+            <div class="container">
+                <h4>Seção Infantil Feminina</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <img src="Cards Finalizados/F1.png" class="card-img-top" alt="Conjunto feminino">
+                            <div class="card-body">
+                                <h5 class="card-title">Conjunto Jeans Feminino Infantil</h5>
+                                <p class="card-text">A peça essencial que faltava no guarda-roupa
+                                    da sua pequena! Esta jaqueta jeans infantil é clássica, versátil
+                                    e super estilosa. Com fecho de botões e bolsos frontais, ela é
+                                    perfeita para sobrepor e deixar qualquer look mais moderno e charmoso.</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card h-100">
+                            <img src="Cards Finalizados/F2.png" class="card-img-top" alt="Conjunto feminino">
+                            <div class="card-body">
+                                <h5 class="card-title">Look Fashion Kids: Saia Tutu e Chapéu de Palha</h5>
+                                <p class="card-text">Deixe sua pequena fashionista brilhar com este visual charmoso!
+                                    Este conjunto inclui uma saia tutu rosa em tule macio e um chapéu de palha delicado,
+                                    perfeitos para passeios e momentos especiais. Um look completo e cheio de estilo
+                                    para a sua princesa.</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="Cards Finalizados/F3.png" class="card-img-top" alt="Conjunto feminino">
+                            <div class="card-body">
+                                <h5 class="card-title">Pijama Infantil Divertido Estampa Festa - Com Pelúcia Grátis!
+                                </h5>
+                                <p class="card-text">Hora de dormir ainda mais divertida! Este pijama fofinho de algodão
+                                    apresenta uma estampa alegre de aniversário. Perfeito para uma noite de sono
+                                    confortável e sonhos doces. E tem mais: ele vem com um amiguinho coelho de pelúcia
+                                    para acompanhar o seu pequeno!</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Container forma correta Masculino-->
+        <Section class="Masculino" id="masculino">
+            <div class="container">
+                <h4>Seção Infantil Masculina</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <img src="Cards Finalizados/M1.png" class="card-img-top" alt="Conjunto feminino">
+                            <div class="card-body">
+                                <h5 class="card-title"> Conjunto Casual Menino: Camiseta Branca Básica e Calça com
+                                    Botões</h5>
+
+                                <p class="card-text">O conforto que o seu menino precisa com o estilo que você ama!
+                                    Este conjunto prático e versátil inclui uma camiseta branca de algodão e calças
+                                    cinzas confortáveis com detalhes de botões de madeira. Ideal para o dia a dia e
+                                    para brincar.</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card h-100">
+                            <img src="Cards Finalizados/M2.png" class="card-img-top" alt="Conjunto feminino">
+                            <div class="card-body">
+                                <h5 class="card-title">Camisa Xadrez, Colete e Bermuda - Completo com Tênis</h5>
+                                <p class="card-text">Para as ocasiões especiais que pedem um toque de elegância! Este
+                                    conjunto charmoso para bebê menino inclui uma camisa xadrez, colete, bermuda risca
+                                    de giz e tênis combinando. Conforto e sofisticação para o seu pequeno cavalheiro.
+                                </p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="Cards Finalizados/Casal.png" class="card-img-top" alt="Conjunto feminino">
+                            <div class="card-body">
+                                <h5 class="card-title">Conjunto de Camisetas Básicas Brancas - Irmãos (Kit com 2
+                                    Unidades)</h5>
+                                <p class="card-text">O básico que nunca sai de moda e combina com tudo! Este kit contém
+                                    duas camisetas brancas unissex de algodão macio, uma para o seu menino e outra para
+                                    a sua menina. Perfeitas para looks coordenados ou para o dia a dia, com conforto e
+                                    qualidade.</p>
+                                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </Section>
+
+        <section class="banner-kids-promo">
+            <img src="img/Banner Kids Promo.jpg" alt="">
+        </section>
+
+        <section>
+            <img class="saibamais" src="img/Footer-MaxKids.png" alt="">
+        </section>
+
+
+
+
+    </main>
+
+
+    <footer>
+        <div class="logope"><img src="img/00.png" alt="logo rodapé"></div>
+
+        <div class="text-footer">
+            <p><b>Max Shop Kids</b> - Todos os Direitos reservados.</p>
+            <p><i>Desenvolvido para o projeto de Front-End do SENAI Anielo Greco</i></p>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,408 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    background-color: #e76800;
+    box-shadow: 0 1px 5px #ffffff;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+
+
+/*Modal*/
+#meuModal .modal-content {
+    background-color: #121212;
+    color: #ffffff;
+    border: 3px solid #e76800;
+    border-radius: 15px;
+}
+
+#meuModal .modal-header {
+    border-bottom: none;
+}
+
+#meuModal .btn-close{
+    filter: invert(1);
+}
+
+#meuModal h6 {
+    color: #e76800;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#meuModal .text-modal {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+#meuModal .text-modal strong {
+    background-color: #e76800;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    display: inline-block;
+    margin: 15px 0;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 10px rgba(231, 104, 0, 0.4);
+}
+
+#meuModal .modal-body img {
+    border-radius: 10px;
+    border: 2px solid #333333;
+}
+
+#meuModal .modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+
+#meuModal .btn-secondary {
+    background-color: #e76800;
+    border: 2px solid #e76800;
+    border-radius: 25px;
+    padding: 8px 35px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#meuModal .btn-secondary:hover {
+    background-color: #e76800;
+    color: #ffffff;
+}
+
+
+
+/*Carrousel*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #e76800;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-size: 25px;
+}
+
+.btn-compras {
+    display: inline-block;
+    background-color: #e7680090;
+    color: #fff0f5;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    font-size: medium;
+    white-space: nowrap;
+}
+
+/* Início do grid. Pelo início ser feminino, usei o título "nossa nova 
+coleção infantil feminino e masculino com os tons usados na 
+estilização do feminino*/
+.inicio-grid {
+    text-align: center;
+    padding: 60px 20px 10px;
+}
+
+.inicio-grid h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #e76800;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.inicio-grid h2::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 4px;
+    background-color: #ff99cc;
+    border-radius: 5px;
+    margin: 12px auto o;
+}
+
+.feminino .container, .Masculino .container {
+    text-align: center;
+}
+
+.feminino .row, .Masculino .row {
+    text-align: left;
+}
+
+.feminino h4 {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #ff99cc;
+    padding: 8px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(255, 153, 204, 0.4);
+}
+
+
+/* Estilização do Grid + estrutura feminino e estrutura do masculino que é comum ao feminino*/
+.feminino {
+    background-color: #fff0f5;
+    padding: 40px 0;
+}
+
+.feminino .card, .Masculino .card {
+    background-color: transparent;
+    border: none;
+}
+
+.feminino .card-img-top, .Masculino .card-img-top{
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.feminino .card-body, .Masculino .card-body {
+    padding: 15px 0;
+    text-align: left;
+}
+
+.feminino .card-title, .Masculino .card-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.feminino .card-text, .Masculino .card-text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #666666;
+    line-height: 1.4;
+}
+
+.feminino .card-body, .Masculino .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.feminino .btn-primary {
+    background-color: #ff99cc;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.3 ease;
+    ;
+}
+
+.feminino .btn-primary:hover {
+    background-color: #ff77bb;
+}
+
+/* Estilização do masculino*/
+.Masculino {
+    background-color: #f0f8ff;
+    padding: 40px 0;
+}
+
+.Masculino .btn-primary {
+    background-color: #66b3ff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.3 ease;
+    ;
+}
+
+.Masculino .btn-primary:hover {
+    background-color: #3399ff;
+}
+
+.Masculino h4 {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #3399ff;
+    padding: 8px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(102, 179, 255, 0.4);
+}
+
+/* Banner kids promo*/
+.banner-kids-promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Footer*/
+footer {
+    background-color: #e76800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff0f5;
+    padding: 20px 10px;
+    gap: 30px;
+}
+
+.logope img {
+    width: 250px;
+    height: auto;
+}
+
+.text.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* =================================
+        Página de contato*/
+        
+.area-contato {
+    background-color: #1b1a1a;
+} 
+
+.formulario-contato .form-label {
+    color: #e76800;
+    font-weight: 700;
+}
+
+.formulario-contato .form-control {
+    border: 2px solid #e76800;
+    border-radius: 15px;
+    transition: all 0.3 ease;
+}
+
+.formulario-contato .btn-enviar {
+    background-color: #e76800;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.2 ease;
+}
+
+.formulario-contato .btn-enviar:hover {
+    background-color: #cc5c00;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* =================================
+        Página Sobre Nós*/
+
+.area-sobre {
+    background-color: #f4f4f4; 
+}
+
+.caixa-texto-sobre {
+    background-color: #ffffff;
+    border-top: 6px solid #e76800; 
+    border-radius: 15px; 
+}
+
+.titulo-sobre {
+    color: #e76800;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subtitulo-sobre {
+    color: #666666;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.caixa-texto-sobre p {
+    font-size: 1.1rem;
+    color: #444444;
+    line-height: 1.8; 
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.caixa-texto-sobre strong {
+    color: #e76800;
+    font-weight: 700;
+}
+
+.caixa-texto-sobre .destaque-centro {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #e76800;
+    margin: 35px 0;
+}
+
+/*ajustes para não ficar ruim na tela de celular*/
+@media (max-width: 768px) {
+
+nav {
+    box-shadow:none;
+}
+
+.banner-promocao {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.banner-promocao img {
+    display: block;
+    width: 100%;
+}
+
+    .btn-compras{
+        white-space: normal;
+        width: 85%;
+        text-align:center;
+        font-size: 0.75rem;
+        padding: 6px 12px;
+        bottom: 8%;
+        line-height:1.2;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 30px;
+        height: 30px;
+        background-size: 15px;
+    } 
+}
